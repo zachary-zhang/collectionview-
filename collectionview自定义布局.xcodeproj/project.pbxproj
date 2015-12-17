@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		CDFB57E51C227A200016AB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFB57E41C227A200016AB94 /* main.m */; };
 		CDFB57E81C227A200016AB94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFB57E71C227A200016AB94 /* AppDelegate.m */; };
-		CDFB57EB1C227A200016AB94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFB57EA1C227A200016AB94 /* ViewController.m */; };
 		CDFB57EE1C227A200016AB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFB57EC1C227A200016AB94 /* Main.storyboard */; };
 		CDFB57F01C227A200016AB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFB57EF1C227A200016AB94 /* Assets.xcassets */; };
 		CDFB57F31C227A200016AB94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFB57F11C227A200016AB94 /* LaunchScreen.storyboard */; };
 		CDFB57FE1C227A200016AB94 /* collectionview_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFB57FD1C227A200016AB94 /* collectionview_____Tests.m */; };
 		CDFB58091C227A200016AB94 /* collectionview_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFB58081C227A200016AB94 /* collectionview_____UITests.m */; };
+		CDFB58181C227A920016AB94 /* ceshiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFB58171C227A920016AB94 /* ceshiViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CDFB581B1C227ABD0016AB94 /* customLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFB581A1C227ABD0016AB94 /* customLayout.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		CDFB57E41C227A200016AB94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDFB57E61C227A200016AB94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDFB57E71C227A200016AB94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CDFB57E91C227A200016AB94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CDFB57EA1C227A200016AB94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CDFB57ED1C227A200016AB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDFB57EF1C227A200016AB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFB57F21C227A200016AB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		CDFB58041C227A200016AB94 /* collectionview自定义布局UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "collectionview自定义布局UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFB58081C227A200016AB94 /* collectionview_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "collectionview_____UITests.m"; sourceTree = "<group>"; };
 		CDFB580A1C227A200016AB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFB58161C227A920016AB94 /* ceshiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ceshiViewController.h; path = ../ceshiViewController.h; sourceTree = "<group>"; };
+		CDFB58171C227A920016AB94 /* ceshiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ceshiViewController.m; path = ../ceshiViewController.m; sourceTree = "<group>"; };
+		CDFB58191C227ABD0016AB94 /* customLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customLayout.h; sourceTree = "<group>"; };
+		CDFB581A1C227ABD0016AB94 /* customLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +106,10 @@
 			children = (
 				CDFB57E61C227A200016AB94 /* AppDelegate.h */,
 				CDFB57E71C227A200016AB94 /* AppDelegate.m */,
-				CDFB57E91C227A200016AB94 /* ViewController.h */,
-				CDFB57EA1C227A200016AB94 /* ViewController.m */,
+				CDFB58191C227ABD0016AB94 /* customLayout.h */,
+				CDFB581A1C227ABD0016AB94 /* customLayout.m */,
+				CDFB58161C227A920016AB94 /* ceshiViewController.h */,
+				CDFB58171C227A920016AB94 /* ceshiViewController.m */,
 				CDFB57EC1C227A200016AB94 /* Main.storyboard */,
 				CDFB57EF1C227A200016AB94 /* Assets.xcassets */,
 				CDFB57F11C227A200016AB94 /* LaunchScreen.storyboard */,
@@ -270,8 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFB57EB1C227A200016AB94 /* ViewController.m in Sources */,
+				CDFB58181C227A920016AB94 /* ceshiViewController.m in Sources */,
 				CDFB57E81C227A200016AB94 /* AppDelegate.m in Sources */,
+				CDFB581B1C227ABD0016AB94 /* customLayout.m in Sources */,
 				CDFB57E51C227A200016AB94 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

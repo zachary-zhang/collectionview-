@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  customLayout.h
 //  collectionview自定义布局
 //
 //  Created by zhn on 15/12/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface customLayout : UICollectionViewLayout
 
+@property (nonatomic,copy) NSArray * heightAry;
 
 @end
-
